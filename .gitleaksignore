@@ -1,0 +1,4 @@
+# Reviewed exact synthetic fixture tokens in the imported example-account export.
+# These are tok-normal-usr-001 and tok-normal-9f2c, not service credentials.
+ATTACK_CONTENT.txt:generic-api-key:8
+ATTACK_CONTENT.txt:generic-api-key:14

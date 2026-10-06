@@ -1,0 +1,1266 @@
+{
+  "case": "06_fp_exfil_inline_system_note",
+  "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635",
+  "scope": "Only results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs, plus the case-specific supplemental content excerpt",
+  "files": [
+    {
+      "path": "results/runs/anthropic__claude-fable-5.1/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-fable-5.1/trial-1/DONE",
+      "sha256": "6f5e859934f19f22f879d071769261ded052aff5d76dde9c0db37b80967920f7",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-fable-5.1/trial-1/provider_error.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-fable-5.1/trial-1/provider_error.json",
+      "sha256": "d363199e57b38b6e95b49051666edb949435f6209d624c87dbfdea47eb30a034",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-fable-5.1/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-fable-5.1/trial-1/run.json",
+      "sha256": "780b4f99404c63a15e63ca3f1fd678009bfd393edcd5b2238ef41cd6cadce626",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-haiku-4.5/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-haiku-4.5/trial-1/DONE",
+      "sha256": "d6c25f0ad4dfdd67367ef8f795b1c58dfe5537a0d18d8f73c7113548f5bd1c43",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-haiku-4.5/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-haiku-4.5/trial-1/episode_attack.json",
+      "sha256": "1b590ee2ccd489b3639a9698cf7d2c8b4f2d5e77603c41c3906a09f30cfdaa92",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-haiku-4.5/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-haiku-4.5/trial-1/episode_benign.json",
+      "sha256": "71fc9e7bf25a7547b82d0a831154a9a613f3f19fd6f4ec4a6cf0ae15517fb17e",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-haiku-4.5/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-haiku-4.5/trial-1/episode_control.json",
+      "sha256": "69bd5c3bb405fe3b45409db64185eb7c1bca7bc433115bbddf8c8e4b743169e5",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-haiku-4.5/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-haiku-4.5/trial-1/run.json",
+      "sha256": "ef91b9a3d10c16f315ef869cf7b32a124756a9e06e16bb986a8647e5b293adef",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-opus-5.5/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-opus-5.5/trial-1/DONE",
+      "sha256": "f690081ec9520c950ad6d78be318f885eaa270d5d15759049c36383c19cddde7",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-opus-5.5/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-opus-5.5/trial-1/run.json",
+      "sha256": "e2a462dac9a53845aaa20a4ec8bea7a44cfc338e559ce4b16f5bf5783e00ca77",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-sonnet-4.6/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-sonnet-4.6/trial-1/DONE",
+      "sha256": "451d796874daca6d1c72434049851d1002ec4d1337b89941bb2af727c7d63e90",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-sonnet-4.6/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-sonnet-4.6/trial-1/episode_attack.json",
+      "sha256": "3204c26402fb46d01c91ce2ba0950c17f0a2cb9ea48838bed3b8dcbcdb50e156",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-sonnet-4.6/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-sonnet-4.6/trial-1/episode_benign.json",
+      "sha256": "c2359f0c1a8a89a730ef536152523008ff5d2a9ce10dccb4164db7e22f60dd7f",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-sonnet-4.6/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-sonnet-4.6/trial-1/episode_control.json",
+      "sha256": "88cf95db0bc6c539b7de6a2a6ffe368e85fc2d9f386a2829c67d591ca50a0b3e",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-sonnet-4.6/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-sonnet-4.6/trial-1/run.json",
+      "sha256": "089ee9970a31e435326c3fc5348cd542f6c11b8d64b7cf34dc7d9cda1cd2b0dc",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-sonnet-5/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-sonnet-5/trial-1/DONE",
+      "sha256": "f81f50e6561e07c81df9453ffe6376b40827f2faa90d493116836c91c2ed49c4",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-sonnet-5/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-sonnet-5/trial-1/episode_attack.json",
+      "sha256": "fffb6c47e3d86541546ea46eefe7cb6deb6a0cfe2772b914eac00b79fe7b1c82",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-sonnet-5/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-sonnet-5/trial-1/episode_benign.json",
+      "sha256": "d46ca568f1e6b1fdc0233fd65836eea2237df2bec189bc62c8485de6568db6b6",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-sonnet-5/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-sonnet-5/trial-1/episode_control.json",
+      "sha256": "7215078ba501bac4ed00a6c965682c460ad94f6af3165ad720e37ac36a595e7f",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-sonnet-5/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-sonnet-5/trial-1/run.json",
+      "sha256": "e2f09ddb8897021d42f0eebaaba8aaaf5f494ea1bc2b0a3b751e57dee92bb624",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-sonnet-5.5/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-sonnet-5.5/trial-1/DONE",
+      "sha256": "86f69c6b3efea3de231fa55bc5453d31c055a1e3a4b73763f0c9c0d497fcfc24",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-sonnet-5.5/trial-1/provider_error.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-sonnet-5.5/trial-1/provider_error.json",
+      "sha256": "d363199e57b38b6e95b49051666edb949435f6209d624c87dbfdea47eb30a034",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/anthropic__claude-sonnet-5.5/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/anthropic__claude-sonnet-5.5/trial-1/run.json",
+      "sha256": "dc76c8089e1215eacd425bb0b037721a285ef8fed328dd71194358afa5e1a8b6",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/cohere__command-a-plus/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/cohere__command-a-plus/trial-1/DONE",
+      "sha256": "95127af7d78061ae33ea7543e547504733286fe47c1df2f40a3bec59e8952e2d",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/cohere__command-a-plus/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/cohere__command-a-plus/trial-1/episode_attack.json",
+      "sha256": "0c9834bf0f247334439908f3ee6a77928e638b4c30062b79c802db11716c0b26",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/cohere__command-a-plus/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/cohere__command-a-plus/trial-1/episode_benign.json",
+      "sha256": "17933ee932d3f9090cb5e3060155e1ae0f5387efcb49195d3a29bc8683383f8b",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/cohere__command-a-plus/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/cohere__command-a-plus/trial-1/episode_control.json",
+      "sha256": "13b26396b10d027c23f3f6432679419db56e5514a323d7c34b6a06d21ff91591",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/cohere__command-a-plus/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/cohere__command-a-plus/trial-1/run.json",
+      "sha256": "f909b7e0096b6ad756361d61aaa7ebc5478e69e159a450ceb3f0d7c24e096ef8",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/deepseek__deepseek-v4-flash/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/deepseek__deepseek-v4-flash/trial-1/DONE",
+      "sha256": "6d4e35097f862c1e41b6c81ca6d0ecdab8fce8f2e96ef227faef3cf7c45ede25",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/deepseek__deepseek-v4-flash/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/deepseek__deepseek-v4-flash/trial-1/episode_attack.json",
+      "sha256": "c5aff18358d2e713200b145ddc9df6cdddc8a5dca7797878491f934f4dc083b0",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/deepseek__deepseek-v4-flash/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/deepseek__deepseek-v4-flash/trial-1/episode_benign.json",
+      "sha256": "9c95d55fd46fbc221b8b0a86d26a15518e96427478c88d84e57161311af09146",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/deepseek__deepseek-v4-flash/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/deepseek__deepseek-v4-flash/trial-1/episode_control.json",
+      "sha256": "dcecf4b9b65139733244a13ea67b159e261ad317c6864fe7c24d9a40506ef1bc",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/deepseek__deepseek-v4-flash/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/deepseek__deepseek-v4-flash/trial-1/run.json",
+      "sha256": "c09089df9756fcc434c08c18a15294641a5ecd37d404fe6bbf4c815d73e07ee9",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/deepseek__deepseek-v4-pro/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/deepseek__deepseek-v4-pro/trial-1/DONE",
+      "sha256": "d0d5f4f57066c6da9e42fdf84c301714f5ca7e484bcda407a734bb43524fb7a9",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/deepseek__deepseek-v4-pro/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/deepseek__deepseek-v4-pro/trial-1/episode_attack.json",
+      "sha256": "af5f9e6aa93a53e00e001c03e89cca86fed6daed211ee311c50e932dd0ecec31",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/deepseek__deepseek-v4-pro/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/deepseek__deepseek-v4-pro/trial-1/episode_benign.json",
+      "sha256": "fc5b538f35fe2b3ec4ee50faab085221003358c9fbdb762b8b841b9ece18c96f",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/deepseek__deepseek-v4-pro/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/deepseek__deepseek-v4-pro/trial-1/episode_control.json",
+      "sha256": "def73e6497f9aea3c1ec5a3d008e9dd87cbf6b0098590fc8e6a2d752ebb1cfa4",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/deepseek__deepseek-v4-pro/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/deepseek__deepseek-v4-pro/trial-1/run.json",
+      "sha256": "9b06b85f94b56cde088f323be5694594eb1005ceb38a0e4e3232997ac578a2af",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/deepseek__deepseek-v4.1-flash/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/deepseek__deepseek-v4.1-flash/trial-1/DONE",
+      "sha256": "7788ca4e11fa357478a44c1524613c287a266ba2c6e5eaafcae7c50ffbb20fc3",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/deepseek__deepseek-v4.1-flash/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/deepseek__deepseek-v4.1-flash/trial-1/episode_attack.json",
+      "sha256": "ad78bd5466d74beb693c59fb647202aa9f841129f349b986788addd717ca587c",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/deepseek__deepseek-v4.1-flash/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/deepseek__deepseek-v4.1-flash/trial-1/episode_benign.json",
+      "sha256": "a3aa1d217a32fbae8455d5cfa369c2af5cd8aa445d0ea9a0fd5a96e9b0dc9cd3",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/deepseek__deepseek-v4.1-flash/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/deepseek__deepseek-v4.1-flash/trial-1/episode_control.json",
+      "sha256": "18f4cbce0099b73e616cec4a5cf95dd52a2d9d295b64ff3b2bb2696547901c80",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/deepseek__deepseek-v4.1-flash/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/deepseek__deepseek-v4.1-flash/trial-1/run.json",
+      "sha256": "19f4cd7f88af0a3cb3f6d4380675a849b33d6edcf1293d5a2c7e590e17ffee0c",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-2.5-flash-lite/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-2.5-flash-lite/trial-1/DONE",
+      "sha256": "24bff108559ec82c127e37b4bb3f2e073eef24c377fc348f58893ed3a1bd590a",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-2.5-flash-lite/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-2.5-flash-lite/trial-1/episode_attack.json",
+      "sha256": "7ec87c1d68da6631dd5b095c17a213b7cca30927da1712922827158b794dd673",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-2.5-flash-lite/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-2.5-flash-lite/trial-1/episode_benign.json",
+      "sha256": "4f1f3dff87fabba61016568ea08308540a1399e80ad435c3d23d8bf4642a5ad7",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-2.5-flash-lite/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-2.5-flash-lite/trial-1/episode_control.json",
+      "sha256": "d758fc593677c19bc979d4a64cb31fe1e439d78e0c7cf9ac46278bf0d9c7764f",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-2.5-flash-lite/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-2.5-flash-lite/trial-1/run.json",
+      "sha256": "f63734d9e96c85e5755c1c25d302c7641c5f6320481b5c97efb3de7822aea1b0",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-3-flash-preview/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-3-flash-preview/trial-1/DONE",
+      "sha256": "125072e282107c748f63bc4ab1500983f326e3e514aa0c053d0217a8fe14c7de",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-3-flash-preview/trial-1/provider_error.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-3-flash-preview/trial-1/provider_error.json",
+      "sha256": "5f17c4f73ff000a96f70851d397f727d80ac52869727d358492f608224f066b7",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-3-flash-preview/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-3-flash-preview/trial-1/run.json",
+      "sha256": "1107418d436cd673a7dd4967fbed67665aa36f09e66ed23cbc7e108c15dff956",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-3.1-flash-lite/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-3.1-flash-lite/trial-1/DONE",
+      "sha256": "b361346425658d730667530d807f9b33c09843ace31ae51b13b69c5d19ff8230",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-3.1-flash-lite/trial-1/provider_error.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-3.1-flash-lite/trial-1/provider_error.json",
+      "sha256": "8a9fe8ccbafae1cce1a85844f9d666ca1d4cfc007af74c23e41183715a0c6917",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-3.1-flash-lite/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-3.1-flash-lite/trial-1/run.json",
+      "sha256": "f975396837e91f9caefa61974006de347974d4b7a1dbe4de5ad44f383d4b81ed",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-3.1-pro-preview/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-3.1-pro-preview/trial-1/DONE",
+      "sha256": "a476d259789361bcacec05cccd2d6d8ee8b8bca3a1b80c755b16a5b907c8c63b",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-3.1-pro-preview/trial-1/provider_error.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-3.1-pro-preview/trial-1/provider_error.json",
+      "sha256": "9705384689ec04b22d7b398435ac32719d7f66b4138de4a70369ae909aa230df",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-3.1-pro-preview/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-3.1-pro-preview/trial-1/run.json",
+      "sha256": "1cc1551b789677f50faebb54676f17b7c5c58cfd9ba96a7f852f719a6e0f0f9d",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-3.7-flash/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-3.7-flash/trial-1/DONE",
+      "sha256": "336e6141ae591eb3e5f9a7583a742cade5968d95d0e1a2eb72aec91e61d30b04",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-3.7-flash/trial-1/provider_error.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-3.7-flash/trial-1/provider_error.json",
+      "sha256": "5399965e0d3839221ebf4cdab2a8d7ad0faba79ed8d1c194980d74a9e51367db",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-3.7-flash/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-3.7-flash/trial-1/run.json",
+      "sha256": "e810979b3ad86a32fcd9008fe3ff2055c9514b27e7561c4432396a4ece2d61dc",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-3.8-flash/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-3.8-flash/trial-1/DONE",
+      "sha256": "ba4f0f504a45b785854227f38cc0a3aa17937c22700f8359beb29b8d86340831",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-3.8-flash/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-3.8-flash/trial-1/episode_attack.json",
+      "sha256": "7978116825bf164e42461369f548cfa9e57e2e6265bacb9a81ddf3558b614342",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-3.8-flash/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-3.8-flash/trial-1/episode_benign.json",
+      "sha256": "cac17df45c1280f7c065f4454a3e4ddff81b9cea253268c893f86e03b833321d",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-3.8-flash/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-3.8-flash/trial-1/episode_control.json",
+      "sha256": "303b28f37b5b219f5c62f9951bf142595d27aca8222fb6b2466f22b34254adfb",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemini-3.8-flash/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemini-3.8-flash/trial-1/run.json",
+      "sha256": "89726f6adbda71d4d21e63d56bf667c8eab48a6e2806e449656dfe4fe1a838cf",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemma-4-31b-it/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemma-4-31b-it/trial-1/DONE",
+      "sha256": "57f84498abf2b276091a3cb592d469dd974597f4e5396f69643eff96e1359e66",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemma-4-31b-it/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemma-4-31b-it/trial-1/episode_attack.json",
+      "sha256": "a460cac1b6689ea2a92843c240b8c74be25449f90cdb095b47b671091e7c149b",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemma-4-31b-it/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemma-4-31b-it/trial-1/episode_benign.json",
+      "sha256": "774f95a06256157b34101589effc984cf4ae84fcdd96c61be3065ac5eadc71e1",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemma-4-31b-it/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemma-4-31b-it/trial-1/episode_control.json",
+      "sha256": "d4e872a14c13eeb6ca8aa34821fe1f996aa0949929bbcddcbe8eeeabfc1bf934",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/google__gemma-4-31b-it/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/google__gemma-4-31b-it/trial-1/run.json",
+      "sha256": "7c5cb054927e0dfa457984b5665c170040c94db5a59e20af6ec256d0b1b08011",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/meta-llama__llama-4-maverick/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/meta-llama__llama-4-maverick/trial-1/DONE",
+      "sha256": "059a4281f5829c8e0cfaadf6368cbd1db22f225cbf1db9fd7651049c9410b4a0",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/meta-llama__llama-4-maverick/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/meta-llama__llama-4-maverick/trial-1/episode_attack.json",
+      "sha256": "f36f69fe7470c9cf4af1fd90cdb1a244784d341f6f9bda020dc5638387ae8693",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/meta-llama__llama-4-maverick/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/meta-llama__llama-4-maverick/trial-1/episode_benign.json",
+      "sha256": "50787e9384a2d58fb378c204debed02542e4bd5ccfec3c68219c3dd6faf2bdeb",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/meta-llama__llama-4-maverick/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/meta-llama__llama-4-maverick/trial-1/episode_control.json",
+      "sha256": "1610a0772649dcef0fe7769059a873840be88dbea999b9748654efe9caef55cc",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/meta-llama__llama-4-maverick/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/meta-llama__llama-4-maverick/trial-1/run.json",
+      "sha256": "8257a82f4cec1012bbf2fdd4f0abc2eef2e4c78697cf17307ff1d40b6b6566be",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/meta__muse-spark-1.3-contributor/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/meta__muse-spark-1.3-contributor/trial-1/DONE",
+      "sha256": "5040ef8cadbc8181ef5e5feb09b66dd9935594c6bfba900a846de81238d78dbf",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/meta__muse-spark-1.3-contributor/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/meta__muse-spark-1.3-contributor/trial-1/run.json",
+      "sha256": "db8c8fbfa760a212c04b74b3bcfc41db6bf07d4f599b31b7c88161b3518f4f6c",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/minimax__minimax-m3/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/minimax__minimax-m3/trial-1/DONE",
+      "sha256": "bd81f9d575ab75ed453273724f1c8b953be4226648fd087f824d8b7a2966cd69",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/minimax__minimax-m3/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/minimax__minimax-m3/trial-1/episode_attack.json",
+      "sha256": "bf28fa5de8e169f85d3c71be99e0077baf6deb4ac1a2ab5df2f7a03a3d45a324",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/minimax__minimax-m3/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/minimax__minimax-m3/trial-1/episode_benign.json",
+      "sha256": "4bfdb97bc2e2cfe1690c97f351c7c1abac3a6bd779704c7ee461a4bfad0faf51",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/minimax__minimax-m3/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/minimax__minimax-m3/trial-1/episode_control.json",
+      "sha256": "0d27347eee465cc178316ac2e9034844f6245f9bcd7377b0715e4608636540e5",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/minimax__minimax-m3/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/minimax__minimax-m3/trial-1/run.json",
+      "sha256": "180f8b2ea7fb7c93e3e4e9b03acf9ed718e8ccd13b0703f0b08685b91f0ed720",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/mistralai__mistral-large-2512/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/mistralai__mistral-large-2512/trial-1/DONE",
+      "sha256": "d3705f1f1dec5498676aab8418c9dd456c1dc02c4b39a210799c4b8a81081714",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/mistralai__mistral-large-2512/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/mistralai__mistral-large-2512/trial-1/run.json",
+      "sha256": "88c637125cc66044e7fcf975b72f73f555b69d6b1edc0586e673a80f06bdf0b4",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/moonshotai__kimi-k3/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/moonshotai__kimi-k3/trial-1/DONE",
+      "sha256": "2105f391745f1b4f2ba18289b84b6ebd59ba5393f16905878a9befb436e75a6b",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/moonshotai__kimi-k3/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/moonshotai__kimi-k3/trial-1/episode_attack.json",
+      "sha256": "6b1e02364ccb09a05fdea4bfe05f62bcd7459e81141ac770e901c4a02e048f86",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/moonshotai__kimi-k3/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/moonshotai__kimi-k3/trial-1/episode_benign.json",
+      "sha256": "bc72c0d79e71c1796faba34e2e21b7b950d318200f7c01f57b5ae66198424dc1",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/moonshotai__kimi-k3/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/moonshotai__kimi-k3/trial-1/episode_control.json",
+      "sha256": "d04a603c66fbaf94a8fab56c11038b9befe0fbf99591f03615696989f617121c",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/moonshotai__kimi-k3/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/moonshotai__kimi-k3/trial-1/run.json",
+      "sha256": "bc6e4c052533e464f51f1cbd004ed3362cc4c44ffdfce44e9299decba46e9fb0",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/nvidia__nemotron-3-ultra-550b-a55b/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/nvidia__nemotron-3-ultra-550b-a55b/trial-1/DONE",
+      "sha256": "b781422c719d9239e04255e121909adec74e551285029cf3790ad5074ce1b8b7",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/nvidia__nemotron-3-ultra-550b-a55b/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/nvidia__nemotron-3-ultra-550b-a55b/trial-1/episode_attack.json",
+      "sha256": "dcd53914739ac70956c2488fdca1254fa0e3f0a0656d09fb28c64449bad65303",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/nvidia__nemotron-3-ultra-550b-a55b/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/nvidia__nemotron-3-ultra-550b-a55b/trial-1/episode_benign.json",
+      "sha256": "d45e6d194d7b9270617b33aafa96a107e6f875c3f3844e2bd15de1e1386ab394",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/nvidia__nemotron-3-ultra-550b-a55b/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/nvidia__nemotron-3-ultra-550b-a55b/trial-1/episode_control.json",
+      "sha256": "28016ca8a146abd9f835b5f08e107157e81130ec2813aa07cbe42421d04c6243",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/nvidia__nemotron-3-ultra-550b-a55b/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/nvidia__nemotron-3-ultra-550b-a55b/trial-1/run.json",
+      "sha256": "f1742864051681b216a790cbcebd2ecf568f6ede675d0ec793814cd78ff454b8",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/nvidia__nemotron-3.5-lightning/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/nvidia__nemotron-3.5-lightning/trial-1/DONE",
+      "sha256": "4d22784b3c06a5fd05b6c9aabbf0729d4eeedc89c80e1a84d608ae544f047c07",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/nvidia__nemotron-3.5-lightning/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/nvidia__nemotron-3.5-lightning/trial-1/episode_attack.json",
+      "sha256": "abe52fd5e78c7d33ae839314d857ab6110be524580e5bee958924cbee06d9639",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/nvidia__nemotron-3.5-lightning/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/nvidia__nemotron-3.5-lightning/trial-1/episode_benign.json",
+      "sha256": "c6279f7c017c9db7776a385580926477b90744b0b20fd285d5f883bf2eeab365",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/nvidia__nemotron-3.5-lightning/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/nvidia__nemotron-3.5-lightning/trial-1/episode_control.json",
+      "sha256": "04330fe3f7f9566fd93ba385af02066e210fc46fc94f7eebbfc708ed96a8b430",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/nvidia__nemotron-3.5-lightning/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/nvidia__nemotron-3.5-lightning/trial-1/run.json",
+      "sha256": "47e115e61d436110835a3ad195fa7cf955b822b52faff4ef570147fa51bef204",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-4o-mini/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-4o-mini/trial-1/DONE",
+      "sha256": "e591bbbf53e45197fe9bdddc096bc74bb621b620677285fef4ac44973491ebc3",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-4o-mini/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-4o-mini/trial-1/episode_attack.json",
+      "sha256": "c53502bb463318ea9410a3d547f9d8e631d228b64150f1ed9d68cfeab7697686",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-4o-mini/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-4o-mini/trial-1/episode_benign.json",
+      "sha256": "a84f615cab20288dd77c2cf9c287e45fd93c7dab952aba3bd09d001f670d4462",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-4o-mini/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-4o-mini/trial-1/episode_control.json",
+      "sha256": "fb8f1c652c7fde07de67d78cb2483742a617a25752a2f6705bf9a85e51eba2a3",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-4o-mini/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-4o-mini/trial-1/run.json",
+      "sha256": "bbdb9878d9bc71d9c9a4cd7f0abfef84c586fe80b14627e49fdda51e9bdb49b9",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-5.6-luna/trial-1/DONE",
+      "sha256": "4f5182c9f0499a218bbbf2136ff09cfede44c707d7a2cc2b25bfec68c28b60f7",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-5.6-luna/trial-1/episode_attack.json",
+      "sha256": "a6238cbc03777ca3d3fe3695417c61e424a7da1666dd83122fa0f4bbdcb731c4",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-5.6-luna/trial-1/episode_benign.json",
+      "sha256": "c05abcdbc5fc62e7b0abef463661263c028fde4717a58f4d1575ca4dae3a0496",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-5.6-luna/trial-1/episode_control.json",
+      "sha256": "e4989ef6e19892dad877fcbadb33a7f1a3100fbd0feafd01ebb1b4610dfe4e5b",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-luna/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-5.6-luna/trial-1/run.json",
+      "sha256": "1e2fe737ed2c2856abfa3bc78f118696ace62e74eebfc3f8d4f988c15b0595f0",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-5.6-sol/trial-1/DONE",
+      "sha256": "c3777e6ccc3addefc976eab53cc8fd003680c8ca08fe538748c0b08027d82402",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-5.6-sol/trial-1/episode_attack.json",
+      "sha256": "bb1a59514bab5b9f9d6217cf44b4b59ddcd5460ef715c4da2f7bc7203e5af0af",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-5.6-sol/trial-1/episode_benign.json",
+      "sha256": "fc55d4246159c8c439b20c8696f101a7ab832839dfdf8dc00b70c1e7ee956111",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-5.6-sol/trial-1/episode_control.json",
+      "sha256": "4e1934d944bf5ffaa6db46213ef173181b6c6b3470654332438c936268610d44",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-sol/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-5.6-sol/trial-1/run.json",
+      "sha256": "828189e3c2386ca1b1128656b5a805180cc13ce10d6d5db32819801c910563de",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-5.6-terra/trial-1/DONE",
+      "sha256": "4d3350a31295f463f05ba8b41b6f213f8e1a8c86d68ac2148d5f87eb5ad9f1ad",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-5.6-terra/trial-1/episode_attack.json",
+      "sha256": "89d41b60a257453ac6a96bbaa06af4d601ca17057d2e7270cbef53c4da1a4123",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-5.6-terra/trial-1/episode_benign.json",
+      "sha256": "9aa2e42a954e6ddef37133792d951ddda02aef367927fe84aa6888a3556e3f1e",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-5.6-terra/trial-1/episode_control.json",
+      "sha256": "3d4db1f046ef40b88f49615a78c87ec712140ff5a1e71cb1e74ed957512c3cf5",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-5.6-terra/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-5.6-terra/trial-1/run.json",
+      "sha256": "eede56e97f1c8defb6b3679d859ba4e9536a00315e6ad63da703351e1f927114",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-6-astra/trial-1/DONE",
+      "sha256": "380869e29f71d9a5ac0d028232fce0b8c5d4aec236b251c8c7ef409e075456a9",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-6-astra/trial-1/episode_attack.json",
+      "sha256": "da44ccabfca668a32cab7d48ae186ff94e338ca077e3617ede0d72436bfd8795",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-6-astra/trial-1/episode_benign.json",
+      "sha256": "3dac4d866661ccd7ab882044ab5d21e5c3539e7ba830de5c2b5012b1440c37b0",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-6-astra/trial-1/episode_control.json",
+      "sha256": "d1e0882629482364fbdc539304043a470639d41e5cd68a3e62f7d7ab7e7771f0",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-6-astra/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-6-astra/trial-1/run.json",
+      "sha256": "d8aa40bc6bbed23da68beebec82b262921bfe3d2fd5aca831b20560577e8de61",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-6-luna/trial-1/DONE",
+      "sha256": "6c85f3a9ccc6c346655222e6f5085213378ebb84228082f67907aba09956c31b",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-6-luna/trial-1/episode_attack.json",
+      "sha256": "c5964473d6271b093eb157b746d6cab6b82b291ff2593c6d92337d060715fa18",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-6-luna/trial-1/episode_benign.json",
+      "sha256": "3386044f1d92daf507ef190038187fb1c2e10c6b5fba81e2f82a23b09750016b",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-6-luna/trial-1/episode_control.json",
+      "sha256": "438ec77e5bd6201c2c9b582158d4ea17ffd129ba4f382179fd52e3e02b244d82",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-6-luna/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-6-luna/trial-1/run.json",
+      "sha256": "ac593c72879314261e31f5b7083e7c5e461b0c5bf231a14d0887de170aa4beb2",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-6-sol/trial-1/DONE",
+      "sha256": "d1a3682793e361cbf545b913aacda2d956f52011d8e90f66f5b1a437164685ab",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-6-sol/trial-1/episode_attack.json",
+      "sha256": "e765883e95e4fc9b85d7324d7c3a9d818332987e9b9b8bc0f462225cb5aa1deb",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-6-sol/trial-1/episode_benign.json",
+      "sha256": "7ae0be7e6e7764ec02b4aeb9fc66c0f7079c9a337aa27b96e318488ecb133c4e",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-6-sol/trial-1/episode_control.json",
+      "sha256": "6c918dc628540575a998da70e73a6d4169dd08222c811794f54bd6f3013482bc",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-6-sol/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-6-sol/trial-1/run.json",
+      "sha256": "1472f6fda776bc42c8ef41a75a325168e4e2af67baa83863410864e6c3e29145",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-oss-120b/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-oss-120b/trial-1/DONE",
+      "sha256": "a637437d28e071b621f4f9200dbf7da6c57d241d964d290d740706277a40352b",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-oss-120b/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-oss-120b/trial-1/episode_attack.json",
+      "sha256": "1e2a3d3f104023b419657906f1ee4610a1699f36edc1c097e3d2f73d96a1dbda",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-oss-120b/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-oss-120b/trial-1/episode_benign.json",
+      "sha256": "e7ffa5699949bc0d68b6a4bea569c090ab15bb4fe47e016dfbfaa6c8c1588f06",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-oss-120b/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-oss-120b/trial-1/episode_control.json",
+      "sha256": "236697553c09849dd3dc7b97f48488e51ac4bf465f8eae4e2fa728d3a6e3c530",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/openai__gpt-oss-120b/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/openai__gpt-oss-120b/trial-1/run.json",
+      "sha256": "2fea24faa82a293cf7b824578f4605f9312be25820b9053a19bafa79b91e09ac",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/poolside__laguna-s-2.1/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/poolside__laguna-s-2.1/trial-1/DONE",
+      "sha256": "cc36f22468c8b248673fd9d35f98c905b0fa617c320f465e869415e2031c40b0",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/poolside__laguna-s-2.1/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/poolside__laguna-s-2.1/trial-1/episode_attack.json",
+      "sha256": "321c82430c5f9ee2d5f621c09bd5d1ccbd71fc3fdc95bec4fb6729350f8e6fc0",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/poolside__laguna-s-2.1/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/poolside__laguna-s-2.1/trial-1/episode_benign.json",
+      "sha256": "fd8f8cec06fb719206d7fda383b1ff9691438afb79f775d3c1e20fc85289e28a",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/poolside__laguna-s-2.1/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/poolside__laguna-s-2.1/trial-1/episode_control.json",
+      "sha256": "dc50e2715cfd56a6de41459b399ce90ab2813272389b2b5a34a8cc53cc551f32",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/poolside__laguna-s-2.1/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/poolside__laguna-s-2.1/trial-1/run.json",
+      "sha256": "c0096902995cabcb7f149188cfd42efa487011b2e9d63412448cda1779532bc3",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/qwen__qwen3.8-flash/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/qwen__qwen3.8-flash/trial-1/DONE",
+      "sha256": "a09d3964f0006ec1318bff2560b7fafae8eb0a40fbb8365da8349b44da6a5176",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/qwen__qwen3.8-flash/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/qwen__qwen3.8-flash/trial-1/episode_attack.json",
+      "sha256": "d1828b0ecc3e23a8003916704c842b094d7a603d0c0cfcf2db26aba72b538585",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/qwen__qwen3.8-flash/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/qwen__qwen3.8-flash/trial-1/episode_benign.json",
+      "sha256": "ad9a9c290c03a071a31fabe2c390640be760d497d3bd0144d548fbf83c081ee6",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/qwen__qwen3.8-flash/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/qwen__qwen3.8-flash/trial-1/episode_control.json",
+      "sha256": "7e449c6fdafe65065b0ebde82aaf8007a2d6b9f2685fca4880eb59f578bba3c2",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/qwen__qwen3.8-flash/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/qwen__qwen3.8-flash/trial-1/run.json",
+      "sha256": "ef79610bf313be52117f1fafc2e100522ce64e880e40e8f15886203cc8a46f71",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/qwen__qwen3.8-max-0902/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/qwen__qwen3.8-max-0902/trial-1/DONE",
+      "sha256": "13726655ef92f5ddcff7ee730dafaa31ce02acd13caefe90a4a961ef58c57d8c",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/qwen__qwen3.8-max-0902/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/qwen__qwen3.8-max-0902/trial-1/episode_attack.json",
+      "sha256": "b1592866abca6b0d272d29f53aadbdc86b20d182f525ea252e2837d57f3fd259",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/qwen__qwen3.8-max-0902/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/qwen__qwen3.8-max-0902/trial-1/episode_benign.json",
+      "sha256": "30d437b3998cbd877eca3adb39d4440565ea91d58b017c6f16497c7947d009fe",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/qwen__qwen3.8-max-0902/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/qwen__qwen3.8-max-0902/trial-1/episode_control.json",
+      "sha256": "2fec5d9148be8d744a7da5a740f971a9bd32dbff7d8d6b5688105b2a2217b248",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/qwen__qwen3.8-max-0902/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/qwen__qwen3.8-max-0902/trial-1/run.json",
+      "sha256": "f0afe01c6e2883477667191b4deb77322c496ecb7d09d76406b3084eb7f07c90",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/tencent__hy3/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/tencent__hy3/trial-1/DONE",
+      "sha256": "5f5c609b6b5db40e1b75c505d5f498e7cb2fdd069c509c07357822585b1cff27",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/tencent__hy3/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/tencent__hy3/trial-1/episode_attack.json",
+      "sha256": "38800d25e937c3e3dbb6efaddd1a438c367eacfe9bc0788c6ccc692331bf7916",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/tencent__hy3/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/tencent__hy3/trial-1/episode_benign.json",
+      "sha256": "4667fc0fb187fbfdf187b8a37b524a26bcd4bea57b5faffe126eb86930c67b81",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/tencent__hy3/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/tencent__hy3/trial-1/episode_control.json",
+      "sha256": "94d7aadac3bdc78c734be8195bd00d665ef06bd0d501b6e6a8ccc444631a3d9f",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/tencent__hy3/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/tencent__hy3/trial-1/run.json",
+      "sha256": "0263834ac5d0a27887d9a3fa346bc24e28fe45448f7757c086722c03858cd8ec",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/tencent__hy4-preview/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/tencent__hy4-preview/trial-1/DONE",
+      "sha256": "28c48ca09f92d64829796ffda0a77dd258d287344103eeba6888d2d9888aaf06",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/tencent__hy4-preview/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/tencent__hy4-preview/trial-1/episode_attack.json",
+      "sha256": "cfea0cc1701c9b012852e2565ee4444021aebcfdcfea8e3845b2efc65f534b37",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/tencent__hy4-preview/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/tencent__hy4-preview/trial-1/episode_benign.json",
+      "sha256": "021e3e12072b2f74bbe7f8081623047e4d4d5911ac784cfc1bd25df19454d1c3",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/tencent__hy4-preview/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/tencent__hy4-preview/trial-1/episode_control.json",
+      "sha256": "76b87b4e8db2364a7acbca4335e052b7e2b4919317364294eb36105481d853a5",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/tencent__hy4-preview/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/tencent__hy4-preview/trial-1/run.json",
+      "sha256": "abb995a2c9568d3699bdef7ac3c252aec7cd8faad80dcb87be66c470173a116d",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/thinkingmachines__inkling/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/thinkingmachines__inkling/trial-1/DONE",
+      "sha256": "93ede91271584798e0da98d5bae1a7d4f3ce6f4cbc923b7783fa806c801e5bd7",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/thinkingmachines__inkling/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/thinkingmachines__inkling/trial-1/episode_attack.json",
+      "sha256": "482188bba3e8a6a8383c484d03a5f7ff4663d8543bc74c5f999078515b85b1ad",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/thinkingmachines__inkling/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/thinkingmachines__inkling/trial-1/episode_benign.json",
+      "sha256": "a756c720fe28f7d67b0b1191be3f1f2f56c95ac146c811faff39a609167d8856",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/thinkingmachines__inkling/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/thinkingmachines__inkling/trial-1/episode_control.json",
+      "sha256": "22124ab1dc48eef5caa3f40678f84c99984102af45bf2359ba05ef6b7aed5c7d",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/thinkingmachines__inkling/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/thinkingmachines__inkling/trial-1/run.json",
+      "sha256": "2a22bc8e3e8ec345828733491267988d895c44b150f4df64c3d31a604a6ee74d",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/upstage__solar-pro4/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/upstage__solar-pro4/trial-1/DONE",
+      "sha256": "a20145395b8b10cf7cd882f57e4536e9305a46477a07e845e19c8a7083fd9755",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/upstage__solar-pro4/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/upstage__solar-pro4/trial-1/episode_attack.json",
+      "sha256": "9e9bd5aec80615dc2a3e38021728a1302722a482810ded3da235290e57ef305f",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/upstage__solar-pro4/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/upstage__solar-pro4/trial-1/episode_benign.json",
+      "sha256": "d9d7f3833c2f8df760345d2e19670a595e95c1ffaa17e4ddc841ffeae781438f",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/upstage__solar-pro4/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/upstage__solar-pro4/trial-1/episode_control.json",
+      "sha256": "b40c5099561d54a4e8733a1832e6383814bd7d29dbebbe43450126e567e5bd72",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/upstage__solar-pro4/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/upstage__solar-pro4/trial-1/run.json",
+      "sha256": "39905361522c51b5ae0133a971dfc2afe2e9d9ca8164be878abd00af9f327509",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/x-ai__grok-4.6/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/x-ai__grok-4.6/trial-1/DONE",
+      "sha256": "9cbfebc4a3593568a08c0888e1dbd221bac90d2c4e63dea45e68c7e1595e3ef2",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/x-ai__grok-4.6/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/x-ai__grok-4.6/trial-1/episode_attack.json",
+      "sha256": "68329d853a9d7b1544a644490764e049db7474282516a8121f28e7288af134d7",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/x-ai__grok-4.6/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/x-ai__grok-4.6/trial-1/episode_benign.json",
+      "sha256": "a4cc19d1c72fc73aef58854314dee78a54234bd99b82e5727c702aaa55308c63",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/x-ai__grok-4.6/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/x-ai__grok-4.6/trial-1/episode_control.json",
+      "sha256": "46572c274de2da7b1d73804873cbe0962f282a26bee3a22f00a3231b9f4f9fb3",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/x-ai__grok-4.6/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/x-ai__grok-4.6/trial-1/run.json",
+      "sha256": "95225a9c05bee4d7ff3a1b6a5bfee5bbb66c111bf71cbe2ddad841169d0d7df1",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/x-ai__grok-4.7/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/x-ai__grok-4.7/trial-1/DONE",
+      "sha256": "9da9f8a2564ce835360396edfc4daa23777e5c8b0f33c9376afc6c1b9d4e6dd7",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/x-ai__grok-4.7/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/x-ai__grok-4.7/trial-1/episode_attack.json",
+      "sha256": "a3c1242c2ffba53c04bac0a27f57b7eea769627448fd641ed442e45bd177a24e",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/x-ai__grok-4.7/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/x-ai__grok-4.7/trial-1/episode_benign.json",
+      "sha256": "5436a1590c4cf043121961cb11e177b6b18b01ec091c18bb37c7c1e1905d5cb8",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/x-ai__grok-4.7/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/x-ai__grok-4.7/trial-1/episode_control.json",
+      "sha256": "896dcafdfa946660bab666380b60f3d7373312a91a5c7f917c8be13a37f0c9c1",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/x-ai__grok-4.7/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/x-ai__grok-4.7/trial-1/run.json",
+      "sha256": "10ad9acaac3056b7fe6d25f7847aeff0a13f2189e9051bfaab3d9b46db1f3776",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/xiaomi__mimo-v2.5/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/xiaomi__mimo-v2.5/trial-1/DONE",
+      "sha256": "d4690c2492f4ed5b360d7fbb2178d67d6ba70cdf061867b95a9f711453d614f4",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/xiaomi__mimo-v2.5/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/xiaomi__mimo-v2.5/trial-1/episode_attack.json",
+      "sha256": "b1872711d4e6052a8195a663b4fa328ae334da48e01965bc92fb27da049c30e8",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/xiaomi__mimo-v2.5/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/xiaomi__mimo-v2.5/trial-1/episode_benign.json",
+      "sha256": "0c16cb73307d37bbac570c0c58b0204efb57165b53760dc9864f909c69a29572",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/xiaomi__mimo-v2.5/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/xiaomi__mimo-v2.5/trial-1/episode_control.json",
+      "sha256": "9d76ecd940f6e817d2f7981230fb80467518c97f2c9deb18eabbcbd14fd08b4b",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/xiaomi__mimo-v2.5/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/xiaomi__mimo-v2.5/trial-1/run.json",
+      "sha256": "acb0f2b17c22e0d807f2ec711d9198054692ffb47fbbfd4659e420bc843b0d19",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/xiaomi__mimo-v2.6-flash/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/xiaomi__mimo-v2.6-flash/trial-1/DONE",
+      "sha256": "7d805e2853f0ed1d8b0e95b7985fa6c329af60574da107f728adce6ba8c3500d",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/xiaomi__mimo-v2.6-flash/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/xiaomi__mimo-v2.6-flash/trial-1/episode_attack.json",
+      "sha256": "6fa3c142a40f6d9147ddac366cd2ee7ca8ecd0589f27a217c81c0019de48ada1",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/xiaomi__mimo-v2.6-flash/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/xiaomi__mimo-v2.6-flash/trial-1/episode_benign.json",
+      "sha256": "8f00fca4757e777c57ec230ab000cc5c08f2cece2a6db62b72a00192602638a4",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/xiaomi__mimo-v2.6-flash/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/xiaomi__mimo-v2.6-flash/trial-1/episode_control.json",
+      "sha256": "d7358946d1dc094e8aecde5686756805fa1c58ce6a28065247e58c2b4f93f10b",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/xiaomi__mimo-v2.6-flash/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/xiaomi__mimo-v2.6-flash/trial-1/run.json",
+      "sha256": "d1a5051a5c692268dd4df8e3df50e24c22a1ff3b5282efff98c02bd62ac73b3c",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/z-ai__glm-5.2/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/z-ai__glm-5.2/trial-1/DONE",
+      "sha256": "eb3d02ac3d0d9d1677b787888676e47a8e2a930ef8705388abe9abeacc0b0449",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/z-ai__glm-5.2/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/z-ai__glm-5.2/trial-1/episode_attack.json",
+      "sha256": "dbbf9e906f6cab9839be382d8fdb74a9fc310305f4d985670d6d3563a306847f",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/z-ai__glm-5.2/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/z-ai__glm-5.2/trial-1/episode_benign.json",
+      "sha256": "c6a7ff5887dd5b0a098600b26333d88c903a4dd7bc457dde8d6bbb4fc249f7db",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/z-ai__glm-5.2/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/z-ai__glm-5.2/trial-1/episode_control.json",
+      "sha256": "3dfbf5859d44733dc4607b6dceaa4d7b5537bca4b31cac6c8652b92e10f1cc07",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/z-ai__glm-5.2/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/z-ai__glm-5.2/trial-1/run.json",
+      "sha256": "06467fd61092ed26755de2a014f4e13ea9f46b9bfa9f94e6b78d239bfb9c4d0b",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/z-ai__glm-5.3/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/z-ai__glm-5.3/trial-1/DONE",
+      "sha256": "6dba611f1e180d5d4a0908d4824f52d54e9c186c36ef6ed917953217230f4cb3",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/z-ai__glm-5.3/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/z-ai__glm-5.3/trial-1/episode_attack.json",
+      "sha256": "8574701901c38a3ef8283a5148c3da86e3b59c9d3f2aaadd49235ba2d95498f3",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/z-ai__glm-5.3/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/z-ai__glm-5.3/trial-1/episode_benign.json",
+      "sha256": "7ae5c55fe1499249627d74674a8a7e79ba32830236717562c8e70bc2d90e10aa",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/z-ai__glm-5.3/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/z-ai__glm-5.3/trial-1/episode_control.json",
+      "sha256": "8cd1e410401e4e1b6027c98ddc136f11e3d8b760ee9748517d9ca61e34a62f5b",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/z-ai__glm-5.3/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/z-ai__glm-5.3/trial-1/run.json",
+      "sha256": "f4f0e8ca39d7d00d7cbeeac002041c27aee2b4603d01fbb330d14efbfbe58ae7",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/z-ai__glm-5.3-flash/trial-1/DONE",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/z-ai__glm-5.3-flash/trial-1/DONE",
+      "sha256": "8dfae214b2a88f4f461af45fac808c1e981fc810605570547991c115f5d3d7c6",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/z-ai__glm-5.3-flash/trial-1/episode_attack.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/z-ai__glm-5.3-flash/trial-1/episode_attack.json",
+      "sha256": "c3953acd9e335cacfc5a29579c3747c7cf1c13bcbf04be38c0e71a38229e3315",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/z-ai__glm-5.3-flash/trial-1/episode_benign.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/z-ai__glm-5.3-flash/trial-1/episode_benign.json",
+      "sha256": "7fbbaab04664b51974911289f088980d3aa4ff96df3c1277ededca6eba31b24e",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/z-ai__glm-5.3-flash/trial-1/episode_control.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/z-ai__glm-5.3-flash/trial-1/episode_control.json",
+      "sha256": "59670ba17c5daa604e8ff17e43c9afed8ff9814be0a2126953fcb4b920a33839",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "results/runs/z-ai__glm-5.3-flash/trial-1/run.json",
+      "source_path": "results/content_item_sweep_16/06_fp_exfil_inline_system_note/runs/z-ai__glm-5.3-flash/trial-1/run.json",
+      "sha256": "55c5940cf7724915a48d7fd556a02c466e09a2811bdc1edbce5197b28625aa89",
+      "source_commit": "773e13418c974f40001e0dbf318dacc468ab8635"
+    },
+    {
+      "path": "ATTACK_CONTENT.txt",
+      "source_kind": "supplemental provider-request content excerpt supplied in prior verified CI-002 evidence, not a file from pinned repository",
+      "sha256": "1aef5eb334b74eb78679346e038ae5549bef259fe957aee486e93327ac81c6aa"
+    }
+  ]
+}
